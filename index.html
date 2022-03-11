@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="retro">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <title>Vite App</title>
+</head>
+
+<body>
+
+  <div data-scroll-container>
+
+    <div class="h-screen flex flex-col gap-3 w-full items-center justify-center" data-scroll-section>
+      <h1 class="font-black uppercase text-center text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-primary-focus"
+        data-scroll data-scroll-speed="3">
+        Locomotive Scroll
+        <i class="fa-duotone fa-train text-secondary-focus"></i>
+      </h1>
+      <h2 class="font-extrabold uppercase text-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl" data-scroll
+        data-scroll-speed="2">
+        comprehensive demo
+      </h2>
+      <h3 class="font-bold text-center text-xl md:text-2xl" data-scroll data-scroll-speed="1">
+        scroll down to feel magic
+        <i class="fa-duotone fa-arrow-down-big-small"></i>
+      </h3>
+    </div>
+
+    <div class="flex flex-col gap-3 w-full py-6" data-scroll-section>
+      <div class="w-full max-w-4xl mx-auto flex-grow gap-3 flex items-start" id="about">
+        <h2 class="font-black uppercase text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-primary-focus py-2 px-4"
+          data-scroll data-scroll-sticky data-scroll-target="#about">
+          About Us
+        </h2>
+        <p class="text-lg text-secondary-content p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Culpa
+          magnam vero
+          ad minus numquam
+          animi et amet
+          libero rerum qui error quam, tempore repellendus delectus doloremque cum optio aut. A sunt veniam, quae ad
+          quod numquam consectetur id in temporibus eum similique culpa cum autem minus? Laborum corporis veritatis non
+          possimus a distinctio, enim suscipit assumenda autem laudantium reprehenderit omnis nemo laboriosam qui veniam
+          officia, deserunt, accusamus molestias. Molestiae quo porro similique consectetur aliquid nostrum est dicta
+          atque. Distinctio amet ratione iure beatae delectus tempore quos et minus, veritatis aliquam nemo expedita.
+          Totam, libero nemo. Omnis temporibus iste excepturi a.</p>
+        <p class="text-lg text-secondary-content p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+          magnam
+          vero ad minus numquam animi et amet
+          libero rerum qui error quam, tempore repellendus delectus doloremque cum optio aut. A sunt veniam, quae ad
+          quod numquam consectetur id in temporibus eum similique culpa cum autem minus? Laborum corporis veritatis non
+          possimus a distinctio, enim suscipit assumenda autem laudantium reprehenderit omnis nemo laboriosam qui veniam
+          officia, deserunt, accusamus molestias. Molestiae quo porro similique consectetur aliquid nostrum est dicta
+          atque. Distinctio amet ratione iure beatae delectus tempore quos et minus, veritatis aliquam nemo expedita.
+          Totam, libero nemo. Omnis temporibus iste excepturi a.</p>
+      </div>
+    </div>
+
+    <div class="h-screen flex flex-col gap-3 w-full mt-40 relative overflow-hidden" data-scroll-section>
+      <div class="absolute w-[100vh] h-[100vh] bg-primary rotate-45 translate-x-1/3 translate-y-1/4 rounded-[64px]"
+        data-scroll>
+      </div>
+      <h1 class="font-black uppercase text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-primary-focus relative"
+        data-scroll data-scroll-speed="-5">
+        Services
+      </h1>
+      <img src="images/1.jpg" alt="" class="relattive w-[50%] translate-y-1/2 translate-x-1/4 mask mask-hexagon"
+        data-scroll data-scroll-speed="10">
+    </div>
+
+    <div class="h-screen flex flex-col gap-3 w-full items-center justify-center" data-scroll-section id="stripes">
+      <div
+        class="bg-secondary-focus text-base-100 w-full p-3 lg:p-10 font-black text-3xl lg:text-6xl skew-x-12 -rotate-6">
+        <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="20" data-scroll-target="#stripes">
+          locomotive can anything</div>
+      </div>
+
+      <div class=" font-black text-4xl py-14 flex">
+        <div data-scroll data-scroll-speed="3">VITE</div>
+        <div data-scroll data-scroll-speed="1">+</div>
+        <div data-scroll data-scroll-speed="2">DaisyUI</div>
+        <div data-scroll data-scroll-speed="3">+</div>
+        <div data-scroll data-scroll-speed="4">Locomotive</div>
+      </div>
+      <div
+        class="bg-secondary-focus text-yellow-300 w-full p-3 lg:p-10 font-black text-3xl lg:text-6xl text-right -skew-x-12 rotate-6">
+        <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="-20" data-scroll-target="#stripes">
+          daisyui is pretty <i class="fa-duotone fa-flower"></i>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="h-screen flex flex-col gap-3 w-full mt-40 relative overflow-hidden" data-scroll-section></div>
+
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
